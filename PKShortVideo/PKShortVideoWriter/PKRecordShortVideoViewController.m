@@ -286,7 +286,7 @@ static CGFloat const PKRecordButtonWidth = 90;
     }
 }
 
-- (void)setFinishRecordingRecorderBtnTitle:(NSString *)title{
+- (void)customFinishRecordingRecorderBtnTitle:(NSString *)title{
     self.finishRecordingRecorderBtnTitle = title;
 }
 

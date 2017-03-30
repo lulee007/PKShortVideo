@@ -25,5 +25,5 @@
 /**
  * 设置录制完成后 录制按钮显示的文字
  */
-- (void) setFinishRecordingRecorderBtnTitle:(NSString*)title;
+- (void) customFinishRecordingRecorderBtnTitle:(NSString*)title;
 @end
