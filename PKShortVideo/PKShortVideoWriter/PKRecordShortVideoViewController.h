@@ -22,4 +22,8 @@
 
 - (instancetype)initWithOutputFilePath:(NSString *)outputFilePath outputSize:(CGSize)outputSize themeColor:(UIColor *)themeColor;
 
+/**
+ * 设置录制完成后 录制按钮显示的文字
+ */
+- (void) setFinishRecordingRecorderBtnTitle:(NSString*)title;
 @end

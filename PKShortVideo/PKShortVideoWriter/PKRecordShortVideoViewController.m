@@ -39,6 +39,8 @@ static CGFloat const PKRecordButtonWidth = 90;
 @property (nonatomic, strong) PKShortVideoProgressBar *progressBar;
 @property (nonatomic, strong) PKShortVideoRecorder *recorder;
 
+@property (nonatomic, strong) NSString * finishRecordingRecorderBtnTitle;
+
 @end
 
 @implementation PKRecordShortVideoViewController
@@ -53,6 +55,7 @@ static CGFloat const PKRecordButtonWidth = 90;
         _outputSize = outputSize;
         _videoMaximumDuration = 6;
         _videoMinimumDuration = 1;
+        _finishRecordingRecorderBtnTitle = @"发送";
     }
     return self;
 }
@@ -259,7 +262,7 @@ static CGFloat const PKRecordButtonWidth = 90;
             [self endRecordingWithPath:outputFilePath failture:NO];
         } else {
             self.outputFilePath = outputFilePath;
-            [self.recordButton setTitle:@"发送" forState:UIControlStateNormal];
+            [self.recordButton setTitle:self.finishRecordingRecorderBtnTitle forState:UIControlStateNormal];
             
             self.playButton = [UIButton buttonWithType:UIButtonTypeCustom];
             self.playButton.tintColor = self.themeColor;
@@ -281,6 +284,10 @@ static CGFloat const PKRecordButtonWidth = 90;
         }
 
     }
+}
+
+- (void)setFinishRecordingRecorderBtnTitle:(NSString *)title{
+    self.finishRecordingRecorderBtnTitle = title;
 }
 
 @end
