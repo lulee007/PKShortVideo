@@ -26,4 +26,22 @@
  * 设置录制完成后 录制按钮显示的文字
  */
 - (void) customFinishRecordingRecorderBtnTitle:(NSString*)title;
+
+/**
+ * 设置最长录制时间
+ */
+
+- (void) customVideoMaximumDuration:(NSTimeInterval)duration;
+
+/**
+ * 设置最短录制时间
+ */
+
+- (void) customVideoMinimumDuration:(NSTimeInterval)duration;
+@end
+
+@interface UIImage (MyBundle)
+
++ (UIImage *)imageNamedFromMyBundle:(NSString *)name;
+
 @end

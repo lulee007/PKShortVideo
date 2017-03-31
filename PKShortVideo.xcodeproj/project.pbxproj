@@ -14,8 +14,6 @@
 		880526481CF2FC99005EC256 /* UIImage+PKShortVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 880526471CF2FC99005EC256 /* UIImage+PKShortVideoPlayer.m */; };
 		88BFB0821D02E00200F223F3 /* PKDemoModelData.m in Sources */ = {isa = PBXBuildFile; fileRef = 88BFB0811D02E00200F223F3 /* PKDemoModelData.m */; };
 		88BFB0841D103D5100F223F3 /* jsq_messages_sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 88BFB0831D103CC400F223F3 /* jsq_messages_sample.m4a */; };
-		88BFB08F1D1C5A3700F223F3 /* PK_Delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BFB08D1D1C5A3700F223F3 /* PK_Delete@2x.png */; };
-		88BFB0901D1C5A3700F223F3 /* PK_Play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BFB08E1D1C5A3700F223F3 /* PK_Play@2x.png */; };
 		88C4D15B1D73CC8A00796D25 /* JSQMessagesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 88C4D0F11D73CC8A00796D25 /* JSQMessagesAssets.bundle */; };
 		88C4D15C1D73CC8A00796D25 /* JSQSystemSoundPlayer+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4D0F41D73CC8A00796D25 /* JSQSystemSoundPlayer+JSQMessages.m */; };
 		88C4D15D1D73CC8A00796D25 /* NSBundle+JSQMessages.m in Sources */ = {isa = PBXBuildFile; fileRef = 88C4D0F61D73CC8A00796D25 /* NSBundle+JSQMessages.m */; };
@@ -76,9 +74,9 @@
 		9C7785C61DC740B400AE912E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C7785C51DC740B400AE912E /* Info.plist */; };
 		9CCBDCC01D98D2AB00BA9C4A /* PKMessageViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCBDCBF1D98D2AB00BA9C4A /* PKMessageViewController2.m */; };
 		9CCBDCC31D98D37800BA9C4A /* PKShortVideoItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCBDCC21D98D37800BA9C4A /* PKShortVideoItem2.m */; };
+		A4003E931E8DE8D5006063FE /* PKShortVideo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4003E921E8DE8D5006063FE /* PKShortVideo.bundle */; };
 		AE4066D91D30E046002273A8 /* PKFullScreenPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4066D61D30E046002273A8 /* PKFullScreenPlayerView.m */; };
 		AE4066DA1D30E046002273A8 /* PKFullScreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4066D81D30E046002273A8 /* PKFullScreenPlayerViewController.m */; };
-		AE4066DC1D30E0C4002273A8 /* PK_Camera_Turn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE4066DB1D30E0C4002273A8 /* PK_Camera_Turn@2x.png */; };
 		AE52D25F1D856F1300D9B86B /* PKChatMessagePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE52D25A1D856F1300D9B86B /* PKChatMessagePlayerView.m */; };
 		AE52D2601D856F1300D9B86B /* PKColorConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = AE52D25C1D856F1300D9B86B /* PKColorConversion.m */; };
 		AE52D2611D856F1300D9B86B /* PKVideoDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AE52D25E1D856F1300D9B86B /* PKVideoDecoder.m */; };
@@ -121,8 +119,6 @@
 		88BFB0801D02E00200F223F3 /* PKDemoModelData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDemoModelData.h; sourceTree = "<group>"; };
 		88BFB0811D02E00200F223F3 /* PKDemoModelData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDemoModelData.m; sourceTree = "<group>"; };
 		88BFB0831D103CC400F223F3 /* jsq_messages_sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jsq_messages_sample.m4a; sourceTree = "<group>"; };
-		88BFB08D1D1C5A3700F223F3 /* PK_Delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PK_Delete@2x.png"; sourceTree = "<group>"; };
-		88BFB08E1D1C5A3700F223F3 /* PK_Play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PK_Play@2x.png"; sourceTree = "<group>"; };
 		88C4D0F11D73CC8A00796D25 /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSQMessagesAssets.bundle; sourceTree = "<group>"; };
 		88C4D0F31D73CC8A00796D25 /* JSQSystemSoundPlayer+JSQMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSQSystemSoundPlayer+JSQMessages.h"; sourceTree = "<group>"; };
 		88C4D0F41D73CC8A00796D25 /* JSQSystemSoundPlayer+JSQMessages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSQSystemSoundPlayer+JSQMessages.m"; sourceTree = "<group>"; };
@@ -239,11 +235,11 @@
 		9CCBDCBF1D98D2AB00BA9C4A /* PKMessageViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMessageViewController2.m; sourceTree = "<group>"; };
 		9CCBDCC11D98D37800BA9C4A /* PKShortVideoItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideoItem2.h; sourceTree = "<group>"; };
 		9CCBDCC21D98D37800BA9C4A /* PKShortVideoItem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShortVideoItem2.m; sourceTree = "<group>"; };
+		A4003E921E8DE8D5006063FE /* PKShortVideo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = PKShortVideo.bundle; path = ../../PKShortVideo.bundle; sourceTree = "<group>"; };
 		AE4066D51D30E046002273A8 /* PKFullScreenPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFullScreenPlayerView.h; sourceTree = "<group>"; };
 		AE4066D61D30E046002273A8 /* PKFullScreenPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFullScreenPlayerView.m; sourceTree = "<group>"; };
 		AE4066D71D30E046002273A8 /* PKFullScreenPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFullScreenPlayerViewController.h; sourceTree = "<group>"; };
 		AE4066D81D30E046002273A8 /* PKFullScreenPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFullScreenPlayerViewController.m; sourceTree = "<group>"; };
-		AE4066DB1D30E0C4002273A8 /* PK_Camera_Turn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PK_Camera_Turn@2x.png"; sourceTree = "<group>"; };
 		AE52D2591D856F1300D9B86B /* PKChatMessagePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKChatMessagePlayerView.h; sourceTree = "<group>"; };
 		AE52D25A1D856F1300D9B86B /* PKChatMessagePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKChatMessagePlayerView.m; sourceTree = "<group>"; };
 		AE52D25B1D856F1300D9B86B /* PKColorConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKColorConversion.h; sourceTree = "<group>"; };
@@ -332,9 +328,7 @@
 		88BFB08C1D1C5A3700F223F3 /* PKAsset */ = {
 			isa = PBXGroup;
 			children = (
-				AE4066DB1D30E0C4002273A8 /* PK_Camera_Turn@2x.png */,
-				88BFB08D1D1C5A3700F223F3 /* PK_Delete@2x.png */,
-				88BFB08E1D1C5A3700F223F3 /* PK_Play@2x.png */,
+				A4003E921E8DE8D5006063FE /* PKShortVideo.bundle */,
 			);
 			path = PKAsset;
 			sourceTree = "<group>";
@@ -743,15 +737,13 @@
 				88C4D1881D73CC8A00796D25 /* JSQMessagesTypingIndicatorFooterView.xib in Resources */,
 				88C4D15B1D73CC8A00796D25 /* JSQMessagesAssets.bundle in Resources */,
 				88C4D1651D73CC8A00796D25 /* JSQMessagesViewController.xib in Resources */,
-				88BFB0901D1C5A3700F223F3 /* PK_Play@2x.png in Resources */,
 				88FBE7941D2A668000556F43 /* LaunchScreen.storyboard in Resources */,
 				88BFB0841D103D5100F223F3 /* jsq_messages_sample.m4a in Resources */,
-				AE4066DC1D30E0C4002273A8 /* PK_Camera_Turn@2x.png in Resources */,
 				9C7785C61DC740B400AE912E /* Info.plist in Resources */,
 				88C4D17E1D73CC8A00796D25 /* JSQMessagesCollectionViewCellOutgoing.xib in Resources */,
 				88C4D17C1D73CC8A00796D25 /* JSQMessagesCollectionViewCellIncoming.xib in Resources */,
-				88BFB08F1D1C5A3700F223F3 /* PK_Delete@2x.png in Resources */,
 				88FBE7971D2A668000556F43 /* Main.storyboard in Resources */,
+				A4003E931E8DE8D5006063FE /* PKShortVideo.bundle in Resources */,
 				88C4D1861D73CC8A00796D25 /* JSQMessagesToolbarContentView.xib in Resources */,
 				88C4D1831D73CC8A00796D25 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
 			);
