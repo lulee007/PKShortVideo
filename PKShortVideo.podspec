@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/pepsikirk/PKShortVideo.git", :tag => s.version }
   s.screenshots  = "https://raw.githubusercontent.com/pepsikirk/PKShortVideo/master/Screenshots/gif.gif"
   s.platform     = :ios, "7.0"
-  s.resources = "PKShortVideo/PKAsset/*.png"
+  s.resources = "PKShortVideo/PKAsset/*.{png,xib,nib,bundle}"
   s.frameworks = "AVFoundation", "CoreMedia", "OpenGLES", "QuartzCore"
   s.requires_arc = true
 
