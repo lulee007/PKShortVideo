@@ -74,7 +74,7 @@
 		9C7785C61DC740B400AE912E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C7785C51DC740B400AE912E /* Info.plist */; };
 		9CCBDCC01D98D2AB00BA9C4A /* PKMessageViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCBDCBF1D98D2AB00BA9C4A /* PKMessageViewController2.m */; };
 		9CCBDCC31D98D37800BA9C4A /* PKShortVideoItem2.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCBDCC21D98D37800BA9C4A /* PKShortVideoItem2.m */; };
-		A4003E951E8DEF69006063FE /* PKShortVideo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4003E941E8DEF69006063FE /* PKShortVideo.bundle */; };
+		A4003E971E8DF15D006063FE /* PKShortVideo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A4003E961E8DF15D006063FE /* PKShortVideo.bundle */; };
 		AE4066D91D30E046002273A8 /* PKFullScreenPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4066D61D30E046002273A8 /* PKFullScreenPlayerView.m */; };
 		AE4066DA1D30E046002273A8 /* PKFullScreenPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE4066D81D30E046002273A8 /* PKFullScreenPlayerViewController.m */; };
 		AE52D25F1D856F1300D9B86B /* PKChatMessagePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE52D25A1D856F1300D9B86B /* PKChatMessagePlayerView.m */; };
@@ -235,7 +235,7 @@
 		9CCBDCBF1D98D2AB00BA9C4A /* PKMessageViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKMessageViewController2.m; sourceTree = "<group>"; };
 		9CCBDCC11D98D37800BA9C4A /* PKShortVideoItem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKShortVideoItem2.h; sourceTree = "<group>"; };
 		9CCBDCC21D98D37800BA9C4A /* PKShortVideoItem2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKShortVideoItem2.m; sourceTree = "<group>"; };
-		A4003E941E8DEF69006063FE /* PKShortVideo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PKShortVideo.bundle; sourceTree = "<group>"; };
+		A4003E961E8DF15D006063FE /* PKShortVideo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PKShortVideo.bundle; sourceTree = "<group>"; };
 		AE4066D51D30E046002273A8 /* PKFullScreenPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFullScreenPlayerView.h; sourceTree = "<group>"; };
 		AE4066D61D30E046002273A8 /* PKFullScreenPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKFullScreenPlayerView.m; sourceTree = "<group>"; };
 		AE4066D71D30E046002273A8 /* PKFullScreenPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKFullScreenPlayerViewController.h; sourceTree = "<group>"; };
@@ -328,6 +328,7 @@
 		88BFB08C1D1C5A3700F223F3 /* PKAsset */ = {
 			isa = PBXGroup;
 			children = (
+				A4003E961E8DF15D006063FE /* PKShortVideo.bundle */,
 			);
 			path = PKAsset;
 			sourceTree = "<group>";
@@ -583,7 +584,6 @@
 		AEDD7D451C34329100977BD0 /* PKShortVideo */ = {
 			isa = PBXGroup;
 			children = (
-				A4003E941E8DEF69006063FE /* PKShortVideo.bundle */,
 				AEED9F031D85564B005CF78C /* PKShortVideo.h */,
 				AEED9EF61D8545B8005CF78C /* GPUImage */,
 				88BFB08C1D1C5A3700F223F3 /* PKAsset */,
@@ -745,7 +745,7 @@
 				88FBE7971D2A668000556F43 /* Main.storyboard in Resources */,
 				88C4D1861D73CC8A00796D25 /* JSQMessagesToolbarContentView.xib in Resources */,
 				88C4D1831D73CC8A00796D25 /* JSQMessagesLoadEarlierHeaderView.xib in Resources */,
-				A4003E951E8DEF69006063FE /* PKShortVideo.bundle in Resources */,
+				A4003E971E8DF15D006063FE /* PKShortVideo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
