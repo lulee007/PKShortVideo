@@ -87,7 +87,7 @@ static CGFloat const PKRecordButtonWidth = 90;
     
     UIBarButtonItem *flexible = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
     
-    UIBarButtonItem *transformItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamedFromMyBundle:@"PK_Camera_Turn"] style:UIBarButtonItemStyleDone target:self action:@selector(swapCamera)];
+    UIBarButtonItem *transformItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamedFromPKRecordShortVideoBundle:@"PK_Camera_Turn"] style:UIBarButtonItemStyleDone target:self action:@selector(swapCamera)];
     transformItem.tintColor = [UIColor whiteColor];
     
     [toolbar setItems:@[cancelItem,flexible,transformItem]];
@@ -266,7 +266,7 @@ static CGFloat const PKRecordButtonWidth = 90;
             
             self.playButton = [UIButton buttonWithType:UIButtonTypeCustom];
             self.playButton.tintColor = self.themeColor;
-            UIImage *playImage = [[UIImage imageNamedFromMyBundle:@"PK_Play"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+            UIImage *playImage = [[UIImage imageNamedFromPKRecordShortVideoBundle:@"PK_Play"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
             [self.playButton setImage:playImage forState:UIControlStateNormal];
             [self.playButton sizeToFit];
             self.playButton.center = CGPointMake((kScreenWidth-PKRecordButtonWidth)/2/2, PKOtherButtonVarticalHeight);
@@ -274,7 +274,7 @@ static CGFloat const PKRecordButtonWidth = 90;
             
             self.refreshButton = [UIButton buttonWithType:UIButtonTypeCustom];
             self.refreshButton.tintColor = self.themeColor;
-            UIImage *refreshImage = [[UIImage imageNamedFromMyBundle:@"PK_Delete"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+            UIImage *refreshImage = [[UIImage imageNamedFromPKRecordShortVideoBundle:@"PK_Delete"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
             [self.refreshButton setImage:refreshImage forState:UIControlStateNormal];
             [self.refreshButton sizeToFit];
             self.refreshButton.center = CGPointMake(kScreenWidth-(kScreenWidth-PKRecordButtonWidth)/2/2, PKOtherButtonVarticalHeight);
@@ -311,9 +311,9 @@ static CGFloat const PKRecordButtonWidth = 90;
 
 
 
-@implementation UIImage (MyBundle)
+@implementation UIImage (PKRecordShortVideoBundle)
 
-+ (UIImage *)imageNamedFromMyBundle:(NSString *)name {
++ (UIImage *)imageNamedFromPKRecordShortVideoBundle:(NSString *)name {
     UIImage *image = [UIImage imageNamed:[@"PKShortVideo.bundle" stringByAppendingPathComponent:name]];
     if (image) {
         return image;

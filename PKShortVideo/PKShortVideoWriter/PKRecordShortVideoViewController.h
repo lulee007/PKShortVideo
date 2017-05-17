@@ -40,8 +40,8 @@
 - (void) customVideoMinimumDuration:(NSTimeInterval)duration;
 @end
 
-@interface UIImage (MyBundle)
+@interface UIImage (PKRecordShortVideoBundle)
 
-+ (UIImage *)imageNamedFromMyBundle:(NSString *)name;
++ (UIImage *)imageNamedFromPKRecordShortVideoBundle:(NSString *)name;
 
 @end
